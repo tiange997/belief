@@ -1,0 +1,77 @@
+/*  This CSS file is PROTECTED, any modifications made on it will be overwritten at each saving of your project  */
+/*  You can modify these CSS classes in Ressources/css/player.css file */
+/*  For more informations, you can check our GITHUB @ https://github.com/Klynt/Klynt-Player/wiki/CSSArchitecture */
+
+/*------- player/nanoscroller.css (level 1) -------*/
+
+.nano-container {
+	position : relative;
+	width    : 100%;
+	height   : 100%;
+	overflow : hidden;
+}
+
+.nano-container.element {
+	position: absolute;
+}
+
+/* HACK */
+.nano-container.text {
+	width: auto;
+	height: auto;
+}
+
+.nano-container .nano-content {
+	position      : absolute;
+	overflow      : scroll;
+	overflow-x    : hidden;
+	top           : 0;
+	right         : 0;
+	bottom        : 0;
+	left          : 0;
+}
+
+.nano-container .nano-content:focus {
+	outline: 0;
+}
+
+.nano-container > .nano-content::-webkit-scrollbar {
+	display: none;
+}
+
+.has-scrollbar > .nano-content::-webkit-scrollbar {
+	display: block;
+}
+
+.nano-container > .nano-pane {
+	background : rgba(150, 150, 150, 0.5);
+	position   : absolute;
+	width      : 10px;
+	right      : 0;
+	top        : 0;
+	bottom     : 0;
+	visibility : hidden\9; /* Target only IE7 and IE8 with this hack */
+	opacity    : .01;
+	-webkit-transition    : .2s;
+	-moz-transition       : .2s;
+	-o-transition         : .2s;
+	transition            : .2s;
+	-moz-border-radius    : 5px;
+	-webkit-border-radius : 5px;
+	border-radius         : 5px;
+}
+
+.nano-container > .nano-pane > .nano-slider {
+	background: #fff;
+	background: rgba(255, 255, 255, 1);
+	position              : relative;
+	margin                : 0 1px;
+	-moz-border-radius    : 3px;
+	-webkit-border-radius : 3px;
+	border-radius         : 3px;
+}
+
+.nano-container:hover > .nano-pane, .nano-pane.active, .nano-pane.flashed {
+	visibility : visible\9; /* Target only IE7 and IE8 with this hack */
+	opacity    : 0.99;
+}

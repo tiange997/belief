@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="../../player/player.css"/>
+		<link rel="stylesheet" type="text/css" href="../buttons.css"/>
+		<link rel="stylesheet" type="text/css" href="../fonts.css"/>
+		<script>
+			var container;
+			var button;
+			var label;
+
+			var load = function (className, text) {
+				container = document.getElementById("container");
+				button = document.getElementById('button');
+				label = document.getElementById('label');
+				button.className += ' ' + className;
+				setText(text);
+			};
+
+			var setText = function (text) {
+				label.innerText = text;
+			};
+
+			var center = function () {
+				container.style.left = ((window.innerWidth - getWidth()) / 2) + 'px';
+				container.style.top = ((window.innerHeight - getHeight()) / 2) + 'px';
+			};
+
+			var getWidth = function () {
+				return getStyle("width") + getStyle("paddingLeft") + getStyle("paddingRight");
+			};
+
+			var setWidth = function (width) {
+				button.style.width = width + 'px';
+			};
+
+			var getHeight = function () {
+				return getStyle("height") + getStyle("paddingTop") + getStyle("paddingBottom");
+			};
+
+			var setHeight = function (height) {
+				button.style.height = height ? height + 'px' : "100%";
+			};
+
+			var getStyle = function (style) {
+				return parseInt(window.getComputedStyle(button)[style], 10);
+			};
+		</script>
+	</head>
+	<body>
+		<div id="container" class="button_container" style="position: absolute;">
+			<div id="button" class="klynt-button">
+				<div class="label-container">
+					<span id="label"></span>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,188 @@
+.klynt-arrow-left {
+	background-image: url("img/arrow-left.png");
+	opacity: 0.5;
+	border: 2px solid rgba(255,255,255,1);
+	border-radius: 60px;
+}
+
+.klynt-arrow-left:hover {
+	border: 2px solid rgba(255,255,255,1);
+	border-radius: 60px;
+	opacity: 1;
+}
+
+.klynt-arrow-right {
+	background-image: url("img/arrow-right.png");
+	border: 2px solid rgba(255,255,255,1);
+	border-radius: 60px;
+	opacity: 0.5;
+}
+
+.klynt-arrow-right:hover {
+	border: 2px solid rgba(255,255,255,1);
+	border-radius: 60px;
+	opacity: 1;
+}
+
+.klynt-arrow-top {
+	background-image: url("img/arrow-top.png");
+	border: 2px solid rgba(255,255,255,1);
+	border-radius: 60px;
+	opacity: 0.5;
+}
+
+.klynt-arrow-top:hover {
+	border: 2px solid rgba(255,255,255,1);
+	border-radius: 60px;
+	opacity: 1;
+}
+
+.klynt-arrow-bottom {
+	background-image: url("img/arrow-bottom.png");
+	border: 2px solid rgba(255,255,255,1);
+	border-radius: 60px;
+	opacity: 0.5;
+}
+
+.klynt-arrow-bottom:hover {
+	border: 2px solid rgba(255,255,255,1);
+	border-radius: 60px;
+	opacity: 1;
+}
+
+.klynt-button-1 {
+	color: rgba(255,255,255,1);
+	font-family: Open Sans,sans-serif;
+	font-size: 14px;
+	font-weight: regular;
+	text-align: center;
+	text-decoration: none;
+	border: 1px solid rgba(255,255,255,0.5);
+	border-radius: 0px;
+}
+
+.klynt-button-1:hover {
+	background-color: rgba(255,255,255,1);
+	color: rgba(0,0,0,1);
+}
+
+.klynt-button-2 {
+	color: rgba(255,255,255,1);
+	font-family: Open Sans,sans-serif;
+	font-size: 14px;
+	text-align: center;
+	font-weight: regular;
+	text-decoration: none;
+	border: 1px solid rgba(255,255,255,0.5);
+	border-radius: 5px;
+}
+
+.klynt-button-2:hover {
+	background-color: rgba(255,255,255,1);
+	color: rgba(0,0,0,1);
+	border: 0px solid rgba(255,255,255,1);
+	border-radius: 5px;
+}
+
+.klynt-button-3 {
+	background-color: rgba(233,66,77,1);
+	color: rgba(255,255,255,1);
+	font-family: Open Sans,sans-serif;
+	font-size: 14px;
+	text-align: center;
+	font-weight: regular;
+	text-decoration: none;
+	opacity: 1;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+	border: 0px solid rgba(233,66,77,1);
+	border-radius: 5px;
+}
+
+.klynt-button-3:hover {
+	font-weight: normal;
+	background-color: rgba(255,255,255,1.0);
+	color: rgba(233,66,77,1);
+}
+
+.klynt-button-4 {
+	color: rgba(51,102,204,1);
+	font-family: Open Sans,sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	text-align: center;
+	text-decoration: none;
+	background-color: rgba(255,255,255,0.1);
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+	border: 0px solid rgba(255,255,255,1);
+	border-radius: 1px;
+}
+
+.klynt-button-4:hover {
+	background-color: rgba(233,66,77,1);
+	color: rgba(255,255,255,1);
+}
+
+.klynt-button-5 {
+	background-color: rgba(233,66,77,1);
+	opacity: 1;
+	background-image: url("img/button-5.png");
+	border: 0px solid rgba(0,0,0,1);
+	border-radius: 60px;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.klynt-button-5:hover {
+	background-color: rgba(255,255,255,1);
+	background-image: url("img/button-5-hover.png");
+}
+
+.klynt-button-6 {
+	background-color: rgba(233,66,77,1);
+	opacity: 1;
+	background-image: url("img/button-6.png");
+	border: 0px solid rgba(0,0,0,1);
+	border-radius: 60px;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.klynt-button-6:hover {
+	background-color: rgba(255,255,255,1);
+	background-image: url("img/button-6-hover.png");
+}
+
+.klynt-button-7 {
+	background-color: rgba(233,66,77,1);
+	opacity: 1;
+	background-image: url("img/button-7.png");
+	border: 0px solid rgba(0,0,0,1);
+	border-radius: 150px;
+}
+
+.klynt-button-7:hover {
+	background-color: rgba(255,255,255,1);
+	border: 0px solid rgba(0,0,0,1);
+	border-radius: 150px;
+	background-image: url("img/button-7-hover.png");
+}
+
+.klynt-button-8 {
+	color: rgba(255,255,255,1);
+	opacity: 1;
+	background-image: url("img/button-8.png");
+}
+
+.klynt-button-8:hover {
+	background-image: url("img/button-8-hover.png");
+}
+
+.klynt-button-9 {
+	opacity: 0.75;
+	background-image: url("img/button-9.png");
+	border: 2px solid rgba(255,255,255,1);
+	border-radius: 80px;
+}
+
+.klynt-button-9:hover {
+	background-image: url("img/button-9-hover.png");
+	opacity: 1;
+}

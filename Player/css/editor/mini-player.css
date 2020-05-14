@@ -1,0 +1,82 @@
+/*  This CSS file is PROTECTED, any modifications made on it will be overwritten at each saving of your project  */
+/*  You can modify these CSS attributes directly in the EDITOR  */
+/*  For more informations, you can check our support center @ http://support.klynt.net or our GITHUB @ https://github.com/Klynt/Klynt-Player/wiki/CSSArchitecture */
+
+/*------- player/mini-player.css (level 2) -------*/
+
+/* This file is auto-generated. All modifications directly in the file will be overwritten by editor when project is saved */
+
+body {font: 14px 'Open Sans', sans-serif;} /* MAIN_FONT */
+
+.miniplayer-button-color {
+	fill : rgba(255, 255, 255, 1); /* SECONDARY_COLOR */
+}
+
+.vertical.miniplayer-info-content{
+	background-color: rgba(51, 51, 51, 0.4); /* PRIMARY_COLOR */
+	color: rgba(255, 255, 255, 1); /* SECONDARY_COLOR */
+}
+
+.vertical.miniplayer-button{
+	background: rgba(233, 66, 77, 1); /* TERTIARY_COLOR */
+	background-size: 25% 25%;
+}
+
+.vertical.miniplayer-text{
+	background-color : rgba(51, 51, 51, 0.4); /* PRIMARY_COLOR */
+	border-color : rgba(255, 255, 255, 1); /* SECONDARY_COLOR */
+}
+
+.vertical.miniplayer-text-title{
+	color: rgba(255, 255, 255, 1); /* SECONDARY_COLOR */
+}
+
+.vertical.miniplayer-text-subtitle{
+	color: rgba(255, 255, 255, 0.8); /* SECONDARY_COLOR */
+}
+
+.vertical.miniplayer-return{
+	background-color: rgba(51, 51, 51, 0.8); /* PRIMARY_COLOR */
+	color: rgba(255, 255, 255, 1); /* SECONDARY_COLOR */
+}
+
+.vertical.miniplayer-return-buttons > div.no {
+	background-color: rgba(255, 255, 255, 0.6); /* SECONDARY_COLOR */
+}
+
+.vertical.miniplayer-return-buttons > div.yes {
+	background-color: rgba(233, 66, 77, 1); /* TERTIARY_COLOR */
+}
+
+.horizontal.miniplayer-info-content{
+	background-color: rgba(51, 51, 51, 0.4); /* PRIMARY_COLOR */
+	color: rgba(255, 255, 255, 1); /* SECONDARY_COLOR */
+}
+
+.horizontal.miniplayer-menu{
+	background-color: rgba(51, 51, 51, 0.4); /* PRIMARY_COLOR */
+	color: rgba(255, 255, 255, 1); /* SECONDARY_COLOR */
+}
+
+.horizontal.miniplayer-button{
+	background: rgba(233, 66, 77, 1); /* TERTIARY_COLOR */
+	background-size: 25% 25%;
+}
+
+.horizontal.miniplayer-return{
+	background-color: rgba(51, 51, 51, 0.8); /* PRIMARY_COLOR */
+	color: rgba(255, 255, 255, 1); /* SECONDARY_COLOR */
+}
+
+.horizontal.miniplayer-return-buttons > div.no {
+	background-color: rgba(255, 255, 255, 0.6); /* SECONDARY_COLOR */
+}
+
+.horizontal.miniplayer-return-buttons > div.yes {
+	background-color: rgba(233, 66, 77, 1); /* TERTIARY_COLOR */
+}
+
+.mobile-miniplayer-button {
+	background-color: rgba(51, 51, 51, 0.4); /* PRIMARY_COLOR */
+	color: rgba(255, 255, 255, 1); /* SECONDARY_COLOR */
+}

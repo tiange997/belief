@@ -1,0 +1,31 @@
+/*  This CSS file is PROTECTED, any modifications made on it will be overwritten at each saving of your project  */
+/*  You can modify these CSS attributes directly in the EDITOR  */
+/*  For more informations, you can check our support center @ http://support.klynt.net or our GITHUB @ https://github.com/Klynt/Klynt-Player/wiki/CSSArchitecture */
+
+/*------- player/splashscreen.css (level 2) -------*/
+
+/* This file is auto-generated. All modifications directly in the file will be overwritten by editor when project is saved*/
+
+body {
+	background-color: rgba(51, 51, 51, 1); /* PRIMARY_COLOR */
+}
+
+#splashscreen {
+	background: rgba(51, 51, 51, 1); /* PRIMARY_COLOR */
+}
+
+#logo {
+	background-image:url(img/splashscreen.svg); /* SPLASHSCREEN_LOGO */
+}
+
+.loader-stroke-color-empty {
+	stroke: rgba(233, 66, 77, 1); /* TERTIARY_COLOR */
+}
+
+.loader-stroke-color-filled {
+	stroke: rgba(233, 66, 77, 1); /* TERTIARY_COLOR */
+}
+
+.loader-label {
+	color: rgba(233, 66, 77, 1); /* TERTIARY_COLOR */
+}
